@@ -1,0 +1,129 @@
+/* Your custom styles */
+html,
+body,
+header,
+#intro {
+  height:100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand{
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+}
+.navbar-brand h5{
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px gray;
+}
+
+#intro{
+ background: url("../img/bgsample.jpg");
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+/* Button outline */
+.btn-outline-white{
+	border-radius: 25px;
+}
+/* .btn-white{
+  border-radius: 25px;
+} */
+
+#intro .btn a{
+  text-decoration: none;
+  color:white;
+}
+#intro .btn:hover{
+  background-color:gray;
+}
+
+#intro .btn a:visited{
+  color:white;
+}
+
+/* Logo icon */
+.logoImg{
+	filter:grayscale(85%);
+}
+
+/*---- Section: Introduction ----*/
+
+/* sample pic */
+/* #storePic{
+  width:450px;
+  height:450px;
+} */
+
+/*---- Section: Bio ----*/
+#designerName{
+  margin:.5em;
+}
+
+/*---- Section: Slideshow ----*/
+
+/*---- Section: Gallery ----*/
+
+/*---- Section: Footer ----*/
+
+footer a .fa-facebook,.fa-twitter, .fa-google-plus,.fa-linkedin,.fa-youtube{
+  padding:10px;
+  text-decoration: none;
+}
+footer a .fa-facebook:hover{
+  color: #3B5998;
+}
+
+footer a .fa-twitter:hover{
+  color: #55ACEE;
+}
+
+footer a .fa-google-plus:hover{
+  color: #d34836;
+}
+
+footer a .fa-linkedin:hover{
+  color: #007bb5;
+}
+
+footer a .fa-youtube:hover{
+  color: #bb0000;
+}
+/*---- Social rotate css----*/
+.rotate {
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+
+.rotate:hover {
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+footer .list-inline-item a i{
+  font-size: 20px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+
+  #gallery #galleryGap{
+  margin-bottom: 25px;
+ }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
